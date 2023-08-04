@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.window {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background-color: green;
+  width: 100vw;
+  height: 100vh;
+  color: black;
+}
+
+.text-1 {
+  font-size: 45px;
+  transform: translateY(-180px)
+  translateX(280px);
+}
+
+.text-2 {
+  font-size: 45px;
+  transform: translateY(160px)
+  translateX(-125px);
+}
+
+.img {
+  width: 120px;
+  transform: translateX(120px);
+}
+
+.code {
+  color: rgb(16, 113, 25);
+}
